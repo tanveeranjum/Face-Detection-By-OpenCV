@@ -7,7 +7,7 @@ Fixed version that works with your structure
 import sys
 import os
 
-# Add src directory to Python path
+
 current_dir = os.path.dirname(os.path.abspath(__file__))
 src_dir = os.path.join(current_dir, "src")
 if src_dir not in sys.path:
@@ -291,4 +291,5 @@ def main():
     run_webcam(camera_id=args.camera, confidence=args.confidence)
 
 if __name__ == "__main__":
+
     main()
